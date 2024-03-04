@@ -7,3 +7,25 @@ body{
     width: 100vw;
     overflow: hidden; 
 }
+
+.Uno {
+    text-align: center; /* Centra el contenido del contenedor */
+    color: aquamarine;
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    margin-left: 32px;
+    font-family: 'Onely Sans', sans-serif;                                  
+    user-select: none;
+    margin-right: 1000px;
+  }
+
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
