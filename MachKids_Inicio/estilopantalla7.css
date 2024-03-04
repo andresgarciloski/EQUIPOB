@@ -20,6 +20,15 @@ body{
     margin-right: 1000px;
   }
 
+  .buttonUno{
+  display: block;
+  position: relative;
+  max-width: 15%;
+  height: auto;
+  left: 25%; /* Movemos la imagen hacia la derecha la mitad de su ancho */
+  transform: translateX(-50%);
+
+  }
   
   
  
