@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pantalla4</title><br>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Caveat Brush">
+	<h1>
+		DATOS DEL MENOR
+	</h1>
+</head>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+	}
+	h1{
+		position: absolute;
+		top: 70px;
+		left: 180px;
+		font-family: Caveat Brush, sans-serif;
+		font-size: 50px;
+		color: #FBD75A;
+	}
+	body
+	{
+		width: 100vw;
+		height: 100vh;
+		background: url(Imagenes/Fondo4.jpg);
+		background-size: cover;
+		background-position: center;
+		display: flex;
+		justify-content: center;
+		align-items:center;
+		flex-direction: column;
+	}
+	.container {
+		/*border: 2px solid black;*/
+		position: relative;
+		top: 0px;
+		left: 0px;
+		padding: 5px;
+		width: 50%;
+		margin-bottom: 30px;
+	}
+	.container input {
+		width: 100%;
+		height: 100%;
+		background: transparent;
+		padding: 2px 2px;
+		padding-left: 20px;
+		border-radius: 30px;
+		border: 8px solid #FD9687;
+		outline: none;
+		font-size: 20px;
+	}
+	.container label1{
+		position: absolute;
+		background-color: white;
+		top: 15px;
+		left: 38px;
+		text-transform: capitalize;
+		transition: 0.3s;
+		pointer-events: none;
+		font-family: Caveat Brush, sans-serif;
+		font-size: 30px;
+	}
+	.container input:focus ~ label1, input:valid ~label1{
+		top: -12px;
+	}
+	.container4 {
+		/*border: 2px solid black;*/
+		position: relative;
+		top: 0px;
+		left: 0px;
+		padding: 5px;
+		width: 50%;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.container4 input {
+		width: 100%;
+		height: 100%;
+		background: transparent;
+		padding: 2px 2px;
+		padding-left: 20px;
+		border-radius: 30px;
+		border: 8px solid #FD9687;
+		outline: none;
+		font-size: 20px;
+	}
+	.container4 label2{
+		position: absolute;
+		background-color: white;
+		top: 15px;
+		left: 40px;
+		text-transform: capitalize;
+		transition: 0.3s;
+		pointer-events: none;
+		font-family: Caveat Brush, sans-serif;
+		font-size: 30px;
+	}
+	.container4 input:focus ~ label2, input:valid ~label2{
+		top: -12px;
+	}
+	.container5 {
+		/*border: 2px solid black;*/
+		position: relative;
+		top: 0px;
+		left: 0px;
+		width: 50%;
+		margin: 15px;
+		margin-top: 30px;
+	}
+	.container5 input {
+		width: 100%;
+		height: 100%;
+		background: transparent;
+		padding: 2px 2px;
+		padding-left: 20px;
+		border-radius: 30px;
+		border: 8px solid #FD9687;
+		outline: none;
+		font-size: 20px;
+	}
+	.container5 label3{
+		position: absolute;
+		background-color: white;
+		top: 10px;
+		left: 32px;
+		text-transform: capitalize;
+		transition: 0.3s;
+		pointer-events: none;
+		font-family: Caveat Brush, sans-serif;
+		font-size: 30px;
+	}
+	.container5 input:focus ~ label3, input:valid ~label3{
+		top: -20px;
+	}
+	.container2{
+		position: absolute;
+		bottom: 10px;
+		left: 70px;
+		width: 160px;
+		height: 230px;
+	}
+	.container2 img{
+		width: 100%;
+		height: 100%;
+	}
+	.container3{
+		position: absolute;
+		bottom: 23%;
+		right: 70px;
+	}
+	.container3 img{
+		width: 100%;
+		height: 100%;
+	}
+	.btnsave{
+		position: absolute;
+		background-color: #6FD8B7;
+		padding: 20px;
+		padding-left: 80px;
+		padding-right: 80px;
+		font-size: 30px;
+		color: white;
+		border-radius: 30px;
+		bottom: 50px;
+		right: 50px;
+		transition: 0.5s;
+	}
+	.btnsave:hover{
+		background-color: #4A9079;
+		padding: 25px;
+		padding-left: 85px;
+		padding-right: 85px;
+		bottom: 45px;
+		right: 45px;
+	}
+</style>
+<body>
+	<div class="container">
+		<input type="text" required>
+		<label1 for="">Nombre</label1></input>
+		<!--<input type="text" required>
+		<label2 for="">Edad</label2></input>
+		<input type="text" required>
+		<label3 for="">Grado de estudios</label3></input>-->
+	</div>
+	<div class="container4">
+		<input type="text" required>
+		<label2 for="">Edad</label2>
+	</div>
+	<div class="container5">
+		<input type="text" required>
+		<label3 for="">Grado de estudios</label3>
+	</div>
+	<div class="container2">
+		<img src="Imagenes/Nina.png">
+	</div>
+	<div class="container3">
+		<img src="Imagenes/Nino.jpeg">
+	</div>
+	<a class="btnsave" href="" style="text-decoration: none;">Guardar</a>
+</body>
+</html>
