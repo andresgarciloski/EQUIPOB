@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("imagenes/Fondo\ 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titulo{
+    top: -40px;
+    position: fixed;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    margin-left: 32px;
+    font-family: 'Sensei', sans-serif;
+    user-select: none;
+    color: rgb(245, 113, 113);
+}
+
+.imagen {
+    position: fixed;
+    bottom: 3%;
+    left: 17%;
+    width: 25%;
+    
+  }
+
+.boton {
+    font-size: 40px;
+    font-family: 'Arial';
+    position: fixed;
+    bottom: 30px;
+    right: 35px;
+    padding: 20px 30px;
+    background-color: #48c9b0;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.boton:hover {
+  color: white;
+  background-color: #0E6251;
+  transform: scale(1.1);
+}
+
