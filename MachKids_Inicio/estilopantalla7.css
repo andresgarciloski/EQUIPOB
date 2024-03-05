@@ -58,6 +58,16 @@ body{
     right: 44%;
   }
 
+  .buttoncinco{
+    display: block;
+    position: absolute;
+    top: 5%;
+    max-width: 200px;
+    height: auto;
+    left: 5%;
+
+  }
+
   .box1{
     width: 470px;
     height: 470px;
