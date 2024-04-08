@@ -1,0 +1,109 @@
+body{
+  background-image: url("imagenes/Fondo5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden; 
+}
+
+.Dos {
+  position: absolute;
+    left: 21%;
+    top: -10%;
+    font-size: 130px;
+    font-weight: bold;
+    font-family: 'Arial Black';
+    user-select: none;
+    color: rgb(132, 218, 132);
+}
+
+.buttonUno{
+display: block;
+position: absolute;
+top: 27%;
+max-width: 20%;
+height: auto;
+left: 34%; 
+transform: translateX(-50%);
+
+}
+.buttondos{
+  display: block;
+  position: absolute;
+  top: 40%;
+  max-width: 20%;
+  height: auto;
+  right: 10%;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out; 
+}
+
+.buttondos:hover {
+transform: scale(1.3);
+} 
+
+.buttontres{
+  display: block;
+  position: absolute;
+  top: 40%;
+  max-width: 200px;
+  height: auto;
+  right: 28%;
+  transform: translateX(-50%);
+}
+
+.buttoncuatro{
+  display: block;
+  position: absolute;
+  top: 82%;
+  max-width: 15%;
+  height: auto;
+  right: 44%;
+}
+
+.buttoncinco{
+  display: block;
+  position: absolute;
+  top: 2.5%;
+  max-width: 200px;
+  height: auto;
+  left: 4%;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out; 
+}
+
+.buttoncinco:hover {
+  transform: scale(1.3);
+} 
+
+.box1{
+  width: 25%;
+    height: 50%;
+    display: block;
+    position: absolute;
+    top: 55%;
+    left: 28%;
+    margin-top: -220px; 
+    margin-left: -125px;
+    line-height: 260px;
+    border-radius: 25px; 
+    border: solid rgb(255, 174, 0);   
+    border-width: thick 7px;
+    }
+
+  .box2{
+    width: 25%;
+    height: 60%;
+    display: block;
+    position: absolute;
+    top: 45%;
+    left: 57%;
+    margin-top: -225px; 
+    margin-left: -125px; 
+    line-height: 260px;
+    border-radius: 25px; 
+    border: solid orange;   
+    border-width: thick 7px;
+  }
