@@ -1,0 +1,29 @@
+body {
+    background-image: url("imagenes/Fondo\ 1.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center ; 
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden; 
+}
+.buttonUno {
+    display: flex;
+    position: absolute;
+    top: -.8%;
+    left: 4%;
+    image-rendering: pixelated;
+
+}
+
+
+
+.buttondos {
+    height: 100vh;
+    width: 110vh;
+    position: absolute;
+    display: flex;
+    top: 0%;
+    left: 23%;
+}
