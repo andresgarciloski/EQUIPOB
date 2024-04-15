@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+    <link rel="stylesheet" href="styles/stylep2.css">
+</head>
+<body>
+    <style>
+        .boton-imgb {
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background: none;
+    width: 50px; /* Ancho del botón */
+    height: 30px; /* Altura del botón */
+    display: inline-block; 
+    margin-left: 30%;
+}
+#btnSi {
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background: none;
+    width: 50px; /* Ancho del botón */
+    height: 30px; /* Altura del botón */
+    display: inline-block; /* Mostrar los botones en línea */
+    margin-left: 20px; /* Espacio entre los botones */
+    transition: transform 0.3s ease-in-out; 
+}
+    
+  #btnSi:hover {
+    transform: scale(1.1);
+} 
+
+#btnNo {
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background: none;
+    width: 50px; /* Ancho del botón */
+    height: 30px; /* Altura del botón */
+    display: inline-block; /* Mostrar los botones en línea */
+    margin-left: 20px; /* Espacio entre los botones */
+    transition: transform 0.3s ease-in-out; 
+}
+    
+  #btnNo:hover {
+    transform: scale(1.1);
+} 
+
+
+.boton-imagen img {
+    width: 130px; 
+    height: auto; 
+}
+
+
+    </style>
+    <header><img src="styles/imagenes/Puedo pasar.jpg" alt="">
+    </header>
+    <div class="img1"> <img src="styles/imagenes/Verde.jpg"alt=""></div>
+ 
+
+    <a href="pregunta1.html" class="boton">
+        <img class="buttonUno" src="styles/imagenes/Retroceso.PNG" alt="1">
+    </a>
+
+    <form id="formulario-respuesta">
+        <input type="image" src="styles/imagenes/Si.png" alt="Si" style="width: 300px; height: auto;" id="btnSi">
+        <input type="image" src="styles/imagenes/No.png" alt="No" style="width: 300px; height: auto;" id="btnNo">
+        
+    </form>
+
+    <script>
+        document.getElementById('btnSi').addEventListener('click', function(event) {
+            event.preventDefault(); 
+            window.location.href ='incorrecta2.html' ;
+        });
+
+        document.getElementById('btnNo').addEventListener('click', function(event) {
+            event.preventDefault(); 
+            window.location.href ='correcta2.html' ;
+        });
+    </script>
+</body>
+</html>
