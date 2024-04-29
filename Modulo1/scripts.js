@@ -16,72 +16,72 @@ function redireccionar(numeroPredicho) {
     switch(window.location.pathname) {
         case "/MachKids/Modulo1/numero0.2.html":
             if (numeroPredicho === 0) {
-                window.location.href = "/MachKids/Modulo1/respuesta/correcto.html";
+                window.location.href = "/MachKids/Modulo1/respuesta/correcto0.html";
             } else {
-                window.location.href = "/MachKids/Modulo1/respuesta/incorrecto.html";
+                window.location.href = "/MachKids/Modulo1/respuesta/incorrecto0.html";
             }
             break;
         case "/MachKids/Modulo1/numero1.2.html":
             if (numeroPredicho === 1) {
-                window.location.href = "/MachKids/Modulo1/respuesta/correcto.html";
+                window.location.href = "/MachKids/Modulo1/respuesta/correcto1.html";
             } else {
-                window.location.href = "/MachKids/Modulo1/respuesta/incorrecto.html";
+                window.location.href = "/MachKids/Modulo1/respuesta/incorrecto1.html";
             }
             break;
         case "/MachKids/Modulo1/numero2.2.html":
             if (numeroPredicho === 2) {
-                window.location.href = "/MachKids/Modulo1/respuesta/correcto.html";
+                window.location.href = "/MachKids/Modulo1/respuesta/correcto2.html";
             } else {
-                window.location.href = "/MachKids/Modulo1/respuesta/incorrecto.html";
+                window.location.href = "/MachKids/Modulo1/respuesta/incorrecto2.html";
             }
             break;
         case "/MachKids/Modulo1/numero3.2.html":
             if (numeroPredicho === 3) {
-                window.location.href = "/MachKids/Modulo1/respuesta/correcto.html";
+                window.location.href = "/MachKids/Modulo1/respuesta/correcto3.html";
             } else {
-                window.location.href = "/MachKids/Modulo1/respuesta/incorrecto.html";
+                window.location.href = "/MachKids/Modulo1/respuesta/incorrecto3.html";
             }
             break;
         case "/MachKids/Modulo1/numero4.2.html":
             if (numeroPredicho === 4) {
-                window.location.href = "/MachKids/Modulo1/respuesta/correcto.html";
+                window.location.href = "/MachKids/Modulo1/respuesta/correcto4.html";
             } else {
-                window.location.href = "/MachKids/Modulo1/respuesta/incorrecto.html";
+                window.location.href = "/MachKids/Modulo1/respuesta/incorrecto4.html";
             }
             break;
         case "/MachKids/Modulo1/numero5.2.html":
             if (numeroPredicho === 5) {
-                window.location.href = "/MachKids/Modulo1/respuesta/correcto.html";
+                window.location.href = "/MachKids/Modulo1/respuesta/correcto5.html";
             } else {
-                window.location.href = "/MachKids/Modulo1/respuesta/incorrecto.html";
+                window.location.href = "/MachKids/Modulo1/respuesta/incorrecto5.html";
             }
             break;
         case "/MachKids/Modulo1/numero6.2.html":
             if (numeroPredicho === 6) {
-                window.location.href = "/MachKids/Modulo1/respuesta/correcto.html";
+                window.location.href = "/MachKids/Modulo1/respuesta/correcto6.html";
             } else {
-                window.location.href = "/MachKids/Modulo1/respuesta/incorrecto.html";
+                window.location.href = "/MachKids/Modulo1/respuesta/incorrecto6.html";
             }
             break;
             case "/MachKids/Modulo1/numero7.2.html":
                 if (numeroPredicho === 7) {
-                    window.location.href = "/MachKids/Modulo1/respuesta/correcto.html";
+                    window.location.href = "/MachKids/Modulo1/respuesta/correcto7.html";
                 } else {
-                    window.location.href = "/MachKids/Modulo1/respuesta/incorrecto.html";
+                    window.location.href = "/MachKids/Modulo1/respuesta/incorrecto7.html";
                 }
                 break;
             case "/MachKids/Modulo1/numero8.2.html":
                 if (numeroPredicho === 8) {
-                    window.location.href = "/MachKids/Modulo1/respuesta/correcto.html";
+                    window.location.href = "/MachKids/Modulo1/respuesta/correcto8.html";
                 } else {
-                    window.location.href = "/MachKids/Modulo1/respuesta/incorrecto.html";
+                    window.location.href = "/MachKids/Modulo1/respuesta/incorrecto8.html";
                 }
                 break;
                 case "/MachKids/Modulo1/numero9.2.html":
                     if (numeroPredicho === 9) {
-                        window.location.href = "/MachKids/Modulo1/respuesta/correcto.html";
+                        window.location.href = "/MachKids/Modulo1/respuesta/correcto9.html";
                     } else {
-                        window.location.href = "/MachKids/Modulo1/respuesta/incorrecto.html";
+                        window.location.href = "/MachKids/Modulo1/respuesta/incorrecto9.html";
                     }
                     break;
         default:
