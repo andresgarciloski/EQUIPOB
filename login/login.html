@@ -3,29 +3,30 @@
 <head>
   <title>Página de inicio de sesión</title>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Para hacerla responsive -->
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css"> <!-- Vincular el archivo CSS separado -->
+  <link href="https://fonts.cdnfonts.com/css/onely-sans" rel="stylesheet">
 </head>
 <body>
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <!-- Formulario de inicio de sesión -->
-        <form action="login.php" method="POST">
-          <h2 class="mt-5 mb-4">Iniciar sesión</h2>
-          <!-- Campo de entrada para el nombre de usuario -->
-          <div class="form-group">
-            <input type="text" class="form-control" name="nombre_user" placeholder="Nombre de usuario" required>
-          </div>
-          <!-- Campo de entrada para la contraseña -->
-          <div class="form-group">
-            <input type="password" class="form-control" name="contrasena_user" placeholder="Contraseña" required>
-          </div>
-          <!-- Botón para enviar el formulario -->
-          <button type="submit" class="btn btn-primary" name="login">Iniciar sesión</button>
-        </form>
-        <!-- Enlace para redirigir al formulario de registro -->
-        <p class="mt-3">¿No tienes una cuenta? <a href="registro.html">Regístrate aquí</a></p>
-      </div>
+    <div class="col-md-12">
+      <!-- Formulario de inicio de sesión -->
+      <form action="login.php" method="POST">
+        <h2 class="mt-5 mb-4 animated-title">Iniciar sesión</h2> <!-- Corregido el uso de la clase animated-title -->
+        <!-- Campo de entrada para el nombre de usuario -->
+        <div class="form-group">
+          <input type="text" class="form-control form-control-lg" name="nombre_user" placeholder="Nombre de usuario" required>
+        </div>
+        <!-- Campo de entrada para la contraseña -->
+        <div class="form-group">
+          <input type="password" class="form-control form-control-lg" name="contrasena_user" placeholder="Contraseña" required>
+        </div>
+        <!-- Botón para enviar el formulario -->
+        <button type="submit" class="btn btn-primary btn-lg animated-button" name="login">Iniciar sesión</button>
+      </form>
+      <!-- Enlace para redirigir al formulario de registro -->
+      <p class="mt-3">¿No tienes una cuenta? <a href="registro.html">Regístrate aquí</a></p>
     </div>
   </div>
 

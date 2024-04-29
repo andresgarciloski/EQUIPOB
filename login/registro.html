@@ -3,7 +3,10 @@
 <head>
   <title>Página de registro</title>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styleReg.css">
+  <link href="https://fonts.cdnfonts.com/css/onely-sans" rel="stylesheet">
 </head>
 <body>
   <div class="container">
@@ -11,21 +14,21 @@
       <div class="col-md-6">
         <!-- Formulario de registro -->
         <form action="php/registro.php" method="POST">
-          <h2 class="mt-5 mb-4">Regístrate</h2>
+          <h2 class="mt-5 mb-4 animated-title">Regístrate</h2>
           <!-- Campo de entrada para el nombre de usuario -->
           <div class="form-group">
-            <input type="text" class="form-control" name="nombre_user" placeholder="Nombre de usuario" required>
+            <input type="text" class="form-control form-control-lg" name="nombre_user" placeholder="Nombre de usuario" required>
           </div>
           <!-- Campo de entrada para la contraseña -->
           <div class="form-group">
-            <input type="password" class="form-control" name="contrasena_user" placeholder="Contraseña" required>
+            <input type="password" class="form-control form-control-lg" name="contrasena_user" placeholder="Contraseña" required>
           </div>
-		  <!-- Campo de entrada para el correo -->
+          <!-- Campo de entrada para el correo -->
           <div class="form-group">
-            <input type="email" class="form-control" name="correo_user" placeholder="Correo" required>
+            <input type="email" class="form-control form-control-lg" name="correo_user" placeholder="Correo" required>
           </div>
           <!-- Botón para enviar el formulario de registro -->
-          <button type="submit" class="btn btn-primary" name="registro">Registrarse</button>
+          <button type="submit" class="btn btn-primary btn-lg animated-button" name="registro">Registrarse</button>
         </form>
         <!-- Enlace para redirigir al formulario de inicio de sesión -->
         <p class="mt-3">¿Ya tienes una cuenta? <a href="login.html">Inicia sesión aquí</a></p>

@@ -1,0 +1,73 @@
+/* style.css */
+
+body {
+  background-image: url('/Modulo1/imagenes/Fondo5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+/* Animación de latido para el título */
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animated-title {
+  animation: heartbeat 1.5s infinite;
+  font-family: 'Onely Sans', sans-serif; /* Agregar la fuente personalizada */
+}
+
+/* Efecto de transición para los campos del formulario */
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  transition: all 0.3s ease;
+}
+
+.form-group input[type="text"]:hover,
+.form-group input[type="password"]:hover {
+  transform: scale(1.05);
+}
+
+/* Efecto de transición para el botón */
+.btn-primary {
+  background-color: #FFB347; /* Naranja pastel */
+  transition: all 0.3s ease;
+  animation: pulse 1.5s infinite; /* Animación de pulso para el botón */
+}
+
+.btn-primary:hover {
+  background-color: #FFA500; /* Naranja pastel más oscuro al pasar el cursor sobre el botón */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
