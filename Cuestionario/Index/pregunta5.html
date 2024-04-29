@@ -56,8 +56,22 @@
     height: auto; 
 }
 
+.corner-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 10%; 
+  transition: width 0.3s; 
+}
+
+.corner-image:hover {
+  width: 13%; 
+}
+
+
 
     </style>
+    
     <header><img src="styles/imagenes/Cual es la indicada.jpg" alt="">
     </header>
     <div class="img1"> <img src="styles/imagenes/Niño preguntando.png"alt=""></div>
@@ -70,6 +84,14 @@
         <img class="Señal2" src="styles/imagenes/Señal peatonal.png" alt="No" style="width: 190px; height: auto;" id="btnNo">
         
     </form>
+
+    <div class="container">
+        <a href="preguntaMenu.html">
+            <img src="/Modulo1/imagenes/Home.png" alt="Tu imagen" class="corner-image">
+        </a>
+      </div>
+
+
 
     <script>
         document.getElementById('btnSi').addEventListener('click', function(event) {

@@ -1,86 +1,192 @@
-body{
-    background-image: url("imagenes/Fondo5.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden; 
+body {
+  background-image: url("../imagenes/Fondo5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .incorrecto {
-    position: absolute;
-    top: 12%;
-    left: 20%;
-    text-align: center; 
-    color: rgb(164, 0, 0);
-    font-size: 125px;
-    font-weight: bold;
-    margin-bottom: 24px;
-    margin-left: 32px;
-    font-family: 'Onely Sans', sans-serif;                                  
-    user-select: none;
-    z-index: 3;
-  }
+  position: absolute;
+  top: 12%;
+  left: 20%;
+  text-align: center;
+  color: rgb(164, 0, 0);
+  font-size: 125px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  margin-left: 32px;
+  font-family: 'Onely Sans', sans-serif;
+  user-select: none;
+  z-index: 3;
+}
 
-  .sisepuede{
+.sisepuede {
   display: block;
   position: absolute;
   top: 35%;
   width: 400px;
-  left: 48%; 
+  left: 48%;
   transform: translateX(-50%);
   z-index: 1;
 
-  }
-  .buttonavanzar{
-    display: block;
-    position: absolute;
-    top: 40%;
-    width: 200px;
-    height: auto;
-    right: 10%;
-    transition: transform 0.3s ease; 
-  }
+}
 
-  .buttonavanzar:hover {
-    transform: scale(1.2);
-  }
+.buttonavanzar {
+  display: block;
+  position: absolute;
+  top: 40%;
+  width: 200px;
+  height: auto;
+  right: 10%;
+  transition: transform 0.3s ease;
+}
 
-  .buttonprogreso{
-    display: block;
-    position: absolute;
-    top: 90%;
-    width: 150px;
-    height: auto;
-    right: 50%;
-  }
+.buttonavanzar:hover {
+  transform: scale(1.2);
+}
 
-  .buttonretroceso{
-    position: absolute;
-    top: 4%;
-    max-width: 80px;
-    height: auto;
-    left: 5%;
-    transition: transform 0.3s ease; 
-  }
+.buttonprogreso {
+  display: block;
+  position: absolute;
+  top: 90%;
+  width: 150px;
+  height: auto;
+  right: 50%;
+}
 
-  .buttonretroceso:hover {
-    transform: scale(1.2);
-  }
+.buttonretroceso {
+  position: absolute;
+  top: 4%;
+  max-width: 80px;
+  height: auto;
+  left: 5%;
+  transition: transform 0.3s ease;
+}
 
-  .box1{
-    width: 700px;
-    height: 420px;
-    display: block;
-    position: absolute;
-    top: 58%;
-    left: 37%;
-    margin-top: -225px; 
-    margin-left: -125px; 
-    line-height: 260px;
-    border-radius: 25px; 
-    border: solid #FD9687;   
-    border-width: thick 7px;
-    z-index: 2;
-    }
+.buttonretroceso:hover {
+  transform: scale(1.2);
+}
+
+.box1 {
+  width: 700px;
+  height: 420px;
+  display: block;
+  position: absolute;
+  top: 58%;
+  left: 37%;
+  margin-top: -225px;
+  margin-left: -125px;
+  line-height: 260px;
+  border-radius: 25px;
+  border: solid #FD9687;
+  border-width: thick 7px;
+  z-index: 2;
+}
+
+.btn {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-1 {
+  background-color: #ff6347;
+}
+
+.btn-1:hover {
+  background-color: #ff1a1a;
+  transition: background-color 0.3s ease;
+}
+
+.btn-2 {
+  background-color: #32cd32;
+}
+
+.btn-2:hover {
+  background-color: #228b22;
+  transition: background-color 0.3s ease;
+}
+
+.btn-3 {
+  background-color: #1e90ff;
+}
+
+.btn-3:hover {
+  background-color: #0000cd;
+  transition: background-color 0.3s ease;
+}
+
+.btn-4 {
+  background-color: #ff8c00;
+}
+
+.btn-4:hover {
+  background-color: #b35900;
+  transition: background-color 0.3s ease;
+}
+
+.btn-5 {
+  background-color: #4b0082;
+}
+
+.btn-5:hover {
+  background-color: #2e0053;
+  transition: background-color 0.3s ease;
+}
+
+.btn-6 {
+  background-color: #d2691e;
+}
+
+.btn-6:hover {
+  background-color: #8b4513;
+  transition: background-color 0.3s ease;
+}
+
+.btn-7 {
+  background-color: #8b008b;
+}
+
+.btn-7:hover {
+  background-color: #4b004b;
+  transition: background-color 0.3s ease;
+}
+
+.btn-8 {
+  background-color: #00bfff;
+}
+
+.btn-8:hover {
+  background-color: #0080ff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-9 {
+  background-color: #ff1493;
+}
+
+.btn-9:hover {
+  background-color: #e60073;
+  transition: background-color 0.3s ease;
+}
+
+.btn-10 {
+  background-color: #00ff7f;
+}
+
+.btn-10:hover {
+  background-color: #00b300;
+  transition: background-color 0.3s ease;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

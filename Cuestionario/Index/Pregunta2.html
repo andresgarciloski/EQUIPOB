@@ -56,6 +56,19 @@
     height: auto; 
 }
 
+.corner-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 10%; 
+  transition: width 0.3s; 
+}
+
+.corner-image:hover {
+  width: 13%; 
+}
+
+
 
     </style>
     <header><img src="styles/imagenes/Puedo pasar.jpg" alt="">
@@ -72,6 +85,15 @@
         <input type="image" src="styles/imagenes/No.png" alt="No" style="width: 300px; height: auto;" id="btnNo">
         
     </form>
+
+
+    <div class="container">
+        <a href="preguntaMenu.html">
+            <img src="/Modulo1/imagenes/Home.png" alt="Tu imagen" class="corner-image">
+        </a>
+      </div>
+
+
 
     <script>
         document.getElementById('btnSi').addEventListener('click', function(event) {
