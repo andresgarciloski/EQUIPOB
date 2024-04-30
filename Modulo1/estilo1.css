@@ -74,10 +74,6 @@ body{
   .box1{
     width: 470px;
     height: 470px;
-    display: block;
-    position: absolute;
-    top: 55%;
-    left: 28%;
     margin-top: -225px; 
     margin-left: -125px; 
     line-height: 260px;
