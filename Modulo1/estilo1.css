@@ -1,141 +1,143 @@
 body{
-    background-image: url("imagenes/Fondo5.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden; 
+  background-image: url("imagenes/Fondo5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden; 
 }
 
 .numero {
-    position: absolute;
-    top: 9%;
-    left: 23%;
-    text-align: center; 
-    color: rgb(0, 164, 109);
-    font-size: 200px;
-    font-weight: bold;
-    margin-bottom: 24px;
-    margin-left: 32px;
-    font-family: 'Onely Sans', sans-serif;                                  
-    user-select: none;
-    margin-right: 700px;
-    z-index: 3;
-  }
+  position: absolute;
+  top: 9%;
+  left: 23%;
+  text-align: center; 
+  color: rgb(0, 164, 109);
+  font-size: 200px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  margin-left: 32px;
+  font-family: 'Onely Sans', sans-serif;                                  
+  user-select: none;
+  margin-right: 700px;
+  z-index: 3;
+}
 
-  .buttonnumero{
+.buttonnumero{
+display: block;
+position: absolute;
+top: 26%;
+max-width: 20%;
+height: auto;
+left: 34%; 
+transform: translateX(-50%);
+z-index: 1;
+
+}
+.buttonavanzar{
   display: block;
   position: absolute;
-  top: 26%;
-  max-width: 20%;
+  top: 40%;
+  width: 200px;
   height: auto;
-  left: 34%; 
-  transform: translateX(-50%);
-  z-index: 1;
+  right: 10%;
+  transition: transform 0.3s ease; 
+}
 
-  }
-  .buttonavanzar{
-    display: block;
-    position: absolute;
-    top: 40%;
-    width: 200px;
-    height: auto;
-    right: 10%;
-    transition: transform 0.3s ease; 
-  }
+.buttonavanzar:hover {
+  transform: scale(1.2);
+}
 
-  .buttonavanzar:hover {
-    transform: scale(1.2);
-  }
+.buttonprogreso{
+  display: block;
+  position: absolute;
+  top: 90%;
+  width: 150px;
+  height: auto;
+  right: 50%;
+}
 
-  .buttonprogreso{
-    display: block;
-    position: absolute;
-    top: 90%;
-    width: 150px;
-    height: auto;
-    right: 50%;
-  }
+.buttonretroceso{
+  position: absolute;
+  top: 4%;
+  max-width: 80px;
+  height: auto;
+  left: 5%;
+  transition: transform 0.3s ease; 
+}
 
-  .buttonretroceso{
-    position: absolute;
-    top: 4%;
-    max-width: 80px;
-    height: auto;
-    left: 5%;
-    transition: transform 0.3s ease; 
-  }
+.buttonretroceso:hover {
+  transform: scale(1.2);
+}
 
-  .buttonretroceso:hover {
-    transform: scale(1.2);
+.box1{
+  width: 470px;
+  height: 470px;
+  display: block;
+  position: absolute;
+  top: 55%;
+  left: 28%;
+  margin-top: -225px; 
+  margin-left: -125px; 
+  line-height: 260px;
+  border-radius: 25px; 
+  border: solid orange;   
+  border-width: thick 7px;
+  z-index: 2;
   }
-
-  .box1{
-    width: 470px;
-    height: 470px;
-    margin-top: -225px; 
-    margin-left: -125px; 
-    line-height: 260px;
-    border-radius: 25px; 
-    border: solid orange;   
-    border-width: thick 7px;
-    z-index: 2;
-    }
 
 .cuadroderecha{
-    position: absolute;
-    left: 48%;
-    top: 20%;
+  position: absolute;
+  left: 48%;
+  top: 20%;
 }
 
 #bigcanvas {
-    border-radius: 25px;
-    border: solid orange;
-    border-width: thick 7px;
-  }
+  border-radius: 25px;
+  border: solid orange;
+  border-width: thick 7px;
+}
 
 .botonesdebajo{
-  position: absolute;
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 60px;
+position: absolute;
+margin-top: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 60px;
 }
 
 #limpiar {
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-right: 50px;
-  border-radius: 25px; 
-  border-width: thick 4px;
-  background-color: aquamarine;
-  border-color: rgb(0, 165, 177);
-  transition: transform 0.3s ease; 
+padding-left: 40px;
+padding-right: 40px;
+margin-right: 50px;
+border-radius: 25px; 
+border-width: thick 4px;
+background-color: aquamarine;
+border-color: rgb(0, 165, 177);
+transition: transform 0.3s ease; 
 }
 
 #limpiar:hover{
-  transform: scale(1.2);
+transform: scale(1.2);
 }
 
 #verificar {
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 25px; 
-  border-width: thick 4px;
-  background-color: rgb(0, 228, 19);
-  border-color: rgb(0, 164, 109);
-  transition: transform 0.3s ease; 
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 25px; 
+border-width: thick 4px;
+background-color: rgb(0, 228, 19);
+border-color: rgb(0, 164, 109);
+transition: transform 0.3s ease; 
 }
 
 #verificar:hover{
-  transform: scale(1.2);
+transform: scale(1.2);
 }
-
-
 
 .corner-image {
   position: absolute;
