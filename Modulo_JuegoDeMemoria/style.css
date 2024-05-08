@@ -90,6 +90,21 @@ button {
   background-color: #000000;
   color: #ffffff;
 }
+#start {
+  font-size: 2.5em;
+  font-family: 'Sensei', sans-serif;
+  display: block;
+  margin: 1.1em auto 0 auto;
+  background-color: #ffffff;
+  background-color: white;
+  border: 5px solid black;
+  color: #000000;
+  transition: transform 0.3s ease-in-out;
+}
+
+#start:hover {
+	transform: scale(1.1);
+}
 .controls-container button {
   font-size: 1.3em;
   box-shadow: 0 0.6em 2em rgba(86, 66, 0, 0.2);
@@ -108,23 +123,9 @@ button {
   margin: 0.6em 0 1em 0;
 }
 
-.buttonretroceso{
-	position: absolute;
-	top: 4%;
-	max-width: 80px;
-	height: auto;
-	left: 5%;
-	transition: transform 0.3s ease; 
-  object-fit: contain; 
-}
-
-.buttonretroceso:hover {
-	transform: scale(1.2);
-}
-
 .corner-image {
 	position: absolute;
-	bottom: 0;
+	top: 0;
 	left: 0;
 	width: 10%; 
 	transition: width 0.3s; 
@@ -134,26 +135,3 @@ button {
 	width: 13%; 
 }
 
-.card {
-	width: 250px;
-	height: 250px;
-	border-radius: 15px;
-	border: 2px solid black; 
-	transition: transform 0.3s;
-}
-  
-.card:hover {
-	transform: scale(1.1); 
-}
-  
-.card-link {
-	display: block; 
-	text-decoration: none;
-	color: inherit; 
-}
-
-.card-img-top {
-	width: 100%;
-	height: 100%;
-	object-fit: contain; 
-}
